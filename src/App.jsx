@@ -22,6 +22,6 @@ function App() {
       <section id='Contact'><Contact /></section>
     </div>
   );
-}
+} 
 
 export default App;
