@@ -36,7 +36,7 @@ function Services() {
                 </div>
                 <div className="title">
                     <h1><motion.b whileHover={{color:'orange'}}>Seamless  </motion.b>Mobile Excellence</h1>
-                    <button><a href="https://github.com/Abhaya-ghost">Github</a></button>
+                    <a href="https://github.com/Abhaya-ghost"><button>Github</button></a>
                 </div>
             </motion.div>
             <motion.div className="listContainer" variants={variants}>

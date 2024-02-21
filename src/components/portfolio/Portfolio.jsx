@@ -19,13 +19,20 @@ const items = [
     },
     {
         id: 3,
+        title: 'Threads Clone',
+        img: '/threads.png',
+        desc: 'A Threads clone website where you can follow and unfollow people, share your photos and videos and have a real time chat with your friends. Frontend is manages using react and ChakraUI whereas Backend is managed using Node.JS, socket.io and MongoDB',
+        url: 'https://github.com/Abhaya-ghost/Threads_clone_frontend',
+    },
+    {
+        id: 4,
         title: 'Covid App',
         img: '/covid.png',
         desc: 'Developed an app describing the number of cases of covid and covid symptoms and its precautions where frontend is manages using Dart and Flutter.',
         url: 'https://github.com/Abhaya-ghost/Covid_project',
     },
     {
-        id: 4,
+        id: 5,
         title: 'gDocs Clone',
         img: '/gDocs.png',
         desc: 'Experience the power of collaboration with our Flutter-powered Google Docs clone. Seamlessly create, edit, and share documents in real-time across devices. Enjoy a familiar interface, robust features, and the flexibility to work on the go. Elevate your document collaboration with our intuitive and efficient Flutter-based solution.',
@@ -52,7 +59,7 @@ const Single = ({ item }) => {
                     <motion.div className="textContainer"  style={{ y: y }}>
                         <h2>{item.title}</h2>
                         <p>{item.desc}</p>
-                        <button><a href={item.url}>See Demo</a></button>
+                        <a href={item.url}><button>See Demo</button></a>
                     </motion.div>
                 </div>
             </div>
